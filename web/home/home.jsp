@@ -411,7 +411,7 @@
                 gap: 12px;
             }
             .logo img {
-                width: 200px;
+                width: 160px;
             }
             .logo-text {
                 display: flex;
@@ -754,7 +754,7 @@
         <div class="footer-section">
             <div>
                 <div class="logo">
-                    <img src="https://pos.nvncdn.com/fd5775-40602/store/20240220_CGdGAsiN.png" alt="AlphaBooks">
+                    <img src="<%= request.getContextPath() %>/images/logo.jpg" alt="AlphaBooks">
 
                 </div>
                 <a href="#">Bán hàng Online</a>
@@ -769,9 +769,9 @@
             </div>
             <div>
                 <h3>Liên hệ</h3>
-                <a href="#">Hotline: 0932329959</a>
-                <a href="#">Fb: m.me/nhasachAlphaBooks</a>
-                <a href="#">Email: cskh@alphabooks.vn</a>
+                <a href="#">Hotline: 0123456789</a>
+                <a href="#">Fb: https://url.td/BookSales</a>
+                <a href="#">Email: booksalestore124@gmail.com</a>
             </div>
             <div>
                 <h3>Danh mục</h3>
